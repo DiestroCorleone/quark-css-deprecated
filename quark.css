@@ -1,0 +1,350 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+*{
+	box-sizing: border-box;
+}
+
+.font-Lato{
+	font-family: Lato;
+}
+
+.font-Courier{
+	font-family: Courier;
+}
+
+.font-Didot{
+	font-family: Didot;
+}
+
+body{
+	margin: 0 auto;
+}
+
+header{
+	min-height: 50vh;
+	background-size: cover;
+}
+
+nav{
+	padding: 0.5rem;
+	width: 100%;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	padding: 0;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 1.5rem;
+}
+
+nav a:hover{
+	background-color: rgb(0,0,0, 0.1);
+}
+
+nav li:first-of-type, nav li:nth-child(2){
+	display: none; 
+}
+
+.no-margin{
+	margin: 0 auto;
+}
+
+.margin{
+	margin: 1rem auto;
+}
+
+.padded{
+	padding: 1rem;
+}
+
+.float-l{
+	float: left;
+}
+
+.float-r{
+	float: right;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-c{
+	text-align: center;
+}
+
+.text-r{
+	text-align: right;
+}
+
+.text-l{
+	text-align: left;
+}
+
+.row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.col-full{
+	width: 100%;
+}
+
+.col-3quarter{
+	width: 70%;
+}
+
+.col-half{
+	width: 49%;
+}
+
+.col-third{
+	width: 30%;
+}
+
+.col-quarter{
+	width: 25%;
+}
+
+.font-red{
+	color: #d60016;
+}
+
+.font-orange{
+	color: #d65600;
+}
+
+.font-yellow{
+	color: #f4ea03;
+}
+
+.font-green{
+	color: #2ff403;
+}
+
+.font-blue{
+	color: #006fc3;
+}
+
+.font-purple{
+	color: #7903f4;
+}
+
+.font-grey{
+	color: #696969;
+}
+
+.font-white{
+	color: white;
+}
+
+.font-black{
+	color: black;
+}
+
+.bg-red, .btn-red{
+	background-color: #d60016;
+}
+
+.bg-orange, .btn-orange{
+	background-color: #d65600;
+}
+
+.bg-yellow, .btn-yellow{
+	background-color: #f4ea03;
+}
+
+.bg-green, .btn-green{
+	background-color: #2ff403;
+}
+
+.bg-blue, .btn-blue{
+	background-color: #006fc3;
+}
+
+.bg-purple, .btn-purple{
+	background-color: #7903f4;
+}
+
+.bg-grey, .btn-grey{
+	background-color: #696969;
+}
+
+.bg-white, .btn-white, .btn-clr-red, .btn-clr-orange, .btn-clr-yellow, .btn-clr-green, .btn-clr-blue, .btn-clr-purple, .btn-clr-grey, .btn-clr-white{
+	background-color: white;
+}
+
+.bg-black, .btn-black{
+	background-color: black;
+}
+
+.btn-red, .btn-orange, .btn-yellow, .btn-green, .btn-blue, .btn-purple, .btn-grey, .btn-black{
+	border: none;
+	padding: 0.5rem;
+	color: white;
+}
+
+.btn-white{
+	border: none;
+	padding: 0.5rem;
+	color: black;
+}
+
+.btn-clr-red, .btn-clr-orange, .btn-clr-yellow, .btn-clr-green, .btn-clr-blue, .btn-clr-purple, .btn-clr-grey, .btn-clr-white{
+	border: 0.1rem solid;
+	padding: 0.5rem;
+	font-weight: bold;
+}
+
+.btn-clr-red{
+	border-color: #d60016;
+	color: #d60016;
+}
+
+.btn-clr-orange{
+	border-color: #d65600;
+	color: #d65600;
+}
+
+.btn-clr-yellow{
+	border-color: #f4ea03;
+	color: #f4ea03;
+}
+
+.btn-clr-green{
+	border-color: #2ff403;
+	color: #2ff403;
+}
+
+.btn-clr-blue{
+	border-color: #006fc3;
+	color: #006fc3;
+} 
+
+.btn-clr-purple{
+	border-color: #7903f4;
+	color: #7903f4;
+}
+
+.btn-clr-grey{
+	border-color: #696969;
+	color: #696969;
+} 
+
+.btn-clr-white{
+	border-color: black;
+	color: black;	
+}
+
+button:hover, input[type=submit]:hover, input[type=reset]:hover{
+	opacity: 0.8;
+}
+
+.input{
+	padding: 0.5rem;
+}
+
+.bordered{
+	border: 0.1rem solid;
+}
+
+.border-red{
+	border-color: #d60016;
+}
+
+.border-orange{
+	border-color: #d65600;
+}
+
+.border-yellow{
+	border-color: #f4ea03;
+}
+
+.border-green{
+	border-color: #2ff403;
+}
+
+.border-blue{
+	border-color: #006fc3;
+}
+
+.border-purple{
+	border-color: #7903f4;
+}
+
+.border-grey{
+	border-color: #696969;
+}
+
+.border-white{
+	border-color: white;
+}
+
+.border-black{
+	border-color: black;
+}
+
+.fixed-up{
+	clear: both;
+	top: 0;
+	position: fixed;
+}
+
+.fixed-down{
+	clear: both;
+	bottom: 0;
+	position: fixed;
+}
+
+.responsive-img{
+	width: 100%;
+	height: auto;
+}
+
+.shadowed{
+	box-shadow: 0px 3px 10px black;
+}
+
+.parallax{
+	width: 100;
+	height: auto;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media screen and (max-width: 800px){
+	.row, nav ul{
+		flex-direction: column;
+	}
+	
+	.col-3quarter, .col-half, .col-third, .col-quarter{
+		width: 100%;
+	}
+	
+	/*Acá comienza la magia*/
+	nav:not(:target) li:first-of-type{
+		display: inherit
+	}
+	
+	nav:not(:target) li{
+		display: none;
+	}
+	
+	nav:target li{
+		display: inherit;
+	}
+	
+	nav:target li:first-of-type{
+		display: none;
+	}
+	/*Acá termina la magia*/	
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel = "stylesheet" href = "quark.css">
+	<style>
+		nav a:hover{
+			background-color: rgb(255,255,255, 0.2);
+		}	
+	</style>
+</head>
+<body class="font-Lato">
+	<nav id = "menu" class = "bg-black shadowed">
+		<ul>
+			<li><a href = "#menu" class = "font-grey">&#9776;</a></li>
+			<li><a href = "#" class = "font-grey">x</a></li>
+			<li><a href ="#what" class = "font-grey">qué es</a></li>
+			<li><a href ="#buttons" class = "font-grey">botones</a></li>
+			<li><a href ="#forms" class = "font-grey">formularios</a></li>
+			<li><a href ="#columns" class = "font-grey">columnas</a></li>
+		</ul>
+	</nav>
+	<header class = "center bg-green font-white">
+		<h1 class = "bg-black padded shadowed">Usando Quark CSS Framework</h1>
+	</header>	
+<a name="what"></a>	
+<div class = "row col-full padded text-c">
+<p><strong>Quark CSS</strong> es un framework para CSS ultraliviano, apto para maquetado o desarrollo ágil de sitios web responsivos.<br>Inspirado en Bootstrap, Materialize, y Chota, busca brindar una solución a aquellos que desean tener lo justo y necesario, ni más ni menos, para montar un sitio web desde un simple archivo html.</p>
+</div>
+
+	<div class = "row col-full bg-grey padded">
+		<div class = "col-third text-c bg-white padded shadowed">
+			<h4>SISTEMA DE CUADRÍCULA SIMPLIFICADO</h4>
+			<hr>
+			<p>Empleamos un sistema de cuadrícula basado en flexbox y porcentajes. Codeá menos, hacé más.</p>
+		</div>
+		<br>
+		<div class = "col-third text-c bg-white padded shadowed">
+			<h4>FUENTES PREDEFINIDAS</h4>
+			<hr>
+			<p>Contamos con una pequeña base de datos nativa con fuentes para cubrir necesidades básicas.</p>
+		</div>	
+		<br>	
+		<div class = "col-third text-c bg-white padded shadowed">
+			<h4>LIVIANO Y ACTUALIZABLE</h4>
+			<hr>
+			<p>Olvidate de enlazar a un servidor remoto. El NCS completo pesa poco más de 3kb. Y se optimiza periódicamente.</p>
+		</div>
+	</div>
+	<a name="buttons"></a>
+	<div class = "row col-full padded">
+		<div class = "col-half bg-white padded shadowed">
+			<h4>BOTONES NORMALES</h4>
+			<hr>
+				<button class = "btn-red">Botón Rojo</button><br><br>
+				<button class = "btn-orange">Botón Naranja</button><br><br>
+				<button class = "btn-yellow">Botón Amarillo</button><br><br>
+				<button class = "btn-green">Botón Verde</button><br><br>
+				<button class = "btn-blue">Botón Azul</button><br><br>
+				<button class = "btn-purple">Botón Violeta</button><br><br>
+				<button class = "btn-black">Botón Negro</button><br><br>
+				<button class = "btn-white">Botón Blanco</button><br><br>
+				<button class = "btn-grey">Botón Gris</button>
+		</div>
+		<br>
+		<div class = "col-half bg-white padded shadowed">
+			<h4>BOTONES CLAROS</h4>
+			<hr>
+				<button class = "btn-clr-red">Botón Rojo</button><br><br>
+				<button class = "btn-clr-orange">Botón Naranja</button><br><br>
+				<button class = "btn-clr-yellow">Botón Amarillo</button><br><br>
+				<button class = "btn-clr-green">Botón Verde</button><br><br>
+				<button class = "btn-clr-blue">Botón Azul</button><br><br>
+				<button class = "btn-clr-purple">Botón Violeta</button><br><br>
+				<button class = "btn-clr-white">Botón Blanco</button><br><br>
+				<button class = "btn-clr-grey">Botón Gris</button>
+		</div>
+	</div>
+	<a name="forms"></a>
+	<div class = "row col-full bg-grey padded">
+		<div class = "col-full bg-white padded shadowed">
+		<h1 class = "text-c">FORMULARIOS</h1>
+		<hr>
+		<form class = "padded bordered border-red shadowed">
+		<input type = "text" class = "input bordered border-red" placeholder = "Texto" required><br><br>
+		<input type = "email" class = "input bordered border-red" placeholder = "E-mail" required><br><br>
+		<input type = "password" class = "input bordered border-red" placeholder = "password" required><br><br>
+		<input type = "submit" class = "btn-clr-red" value = "Enviar">
+		<input type = "reset" class = "btn-clr-red" value = "Reset">
+		</form>
+		</div>
+	</div>
+	<a name="columns"></a>
+	<div class="row col-full bg-white padded">
+		<div class="col-full bg-grey padded shadowed text-c">
+			<h1>SISTEMA DE COLUMNAS</h1>
+			<p><strong>Quark CSS</strong> emplea un sistema de columnas basado en porcentajes. Añadiendo la clase 'row' a un elemento (div, por ejemplo), creamos una fila en la que se almacenarán columnas. Debajo, ejemplos.</p>
+		</div>	
+	</div>
+	<div class="row col-full bg-grey padded">
+		<div class="col-full">
+			<p class="text-c"><strong class="font-Courier">row col-full</strong> (una <strong>fila</strong> que ocupa una <strong>columna</strong> completa).</p>
+		</div>
+	</div>
+	<div class="row col-full bg-grey padded">
+		<div class="col-half padded bg-white shadowed"><p><strong class="font-Courier">col-half</strong> (media columna).</p></div>
+		<div class="col-half padded bg-white shadowed"><p><strong class="font-Courier">col-half</strong> (media columna).</p></div>		
+	</div>
+	<div class="row col-full bg-grey padded">
+		<div class="col-third padded bg-white shadowed"><p><strong class="font-Courier">col-third</strong> (un tercio de columna).</p></div>
+		<div class="col-third padded bg-white shadowed"><p><strong class="font-Courier">col-third</strong> (un tercio de columna).</p></div>
+		<div class="col-third padded bg-white shadowed"><p><strong class="font-Courier">col-third</strong> (un tercio de columna).</p></div>	
+	</div>
+	<div class="row col-full bg-grey padded">
+		<div class="col-quarter padded bg-white shadowed"><p><strong class="font-Courier">col-quarter</strong> (un cuarto de columna).</p></div>
+		<div class="col-quarter padded bg-white shadowed"><p><strong class="font-Courier">col-quarter</strong> (un cuarto de columna).</p></div>
+		<div class="col-quarter padded bg-white shadowed"><p><strong class="font-Courier">col-quarter</strong> (un cuarto de columna).</p></div>
+		<div class="col-quarter padded bg-white shadowed"><p><strong class="font-Courier">col-quarter</strong> (un cuarto de columna).</p></div>
+	</div>
+	<div class="row col-full bg-grey padded">
+		<div class="col-quarter padded bg-white shadowed"><p><strong class="font-Courier">col-quarter</strong> (un cuarto de columna).</p></div>
+		<div class="col-3quarter padded bg-white shadowed"><p><strong class="font-Courier">col-3quarter</strong> (tres cuartos de columna).</p></div>
+	</div>		
+</body>
+</html>	
